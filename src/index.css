@@ -1,1 +1,23 @@
-/* TODO Add site wide styles */
+form {
+    display: 'flex';
+    flex-direction: 'column';
+    border: 1px solid grey;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 20vh;
+    padding: 2vw;
+}
+
+form > div {
+    padding: 0.5vh;
+}
+
+form li {
+    list-style: none;
+    color: red;
+}
+
+form > button {
+   align-self: center;
+}
